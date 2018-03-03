@@ -2,6 +2,7 @@
 
 https://ropsten.etherscan.io/apis
 http://faucet.ropsten.be:3001/
+https://faucet.bitfwd.xyz/
 
 https://chart.googleapis.com/chart?chs=500x500&cht=qr&chl=0x425c813B54eea8c4fBf307cAb6c154Ada64aF0b4&choe=UTF-8
 https://jibrelnetwork.github.io/ethereum-qr-code/demo-simple.html
