@@ -1,5 +1,13 @@
 # eth-blockchain-demo
 
+db:
+pwd: sna2018
+dbadminlogin
+name: blockchaindemodb
+blockchaindemodbsrv.database.windows.net
+blockchaindemoResGroup
+blockchaindemodbsrv.database.windows.net
+
 https://ropsten.etherscan.io/apis
 http://faucet.ropsten.be:3001/
 https://faucet.bitfwd.xyz/
@@ -7,6 +15,18 @@ https://faucet.bitfwd.xyz/
 https://chart.googleapis.com/chart?chs=500x500&cht=qr&chl=0x425c813B54eea8c4fBf307cAb6c154Ada64aF0b4&choe=UTF-8
 https://jibrelnetwork.github.io/ethereum-qr-code/demo-simple.html
 https://jibrelnetwork.github.io/ethereum-qr-code/demo-advanced.html
+
+
+
+address
+:
+"0xedCA0f1157da96a941805eE3c4D7a2CeF3054F27"
+privateKey
+:
+"0x6046212d003b4c010ac22e38a2c41c7a434b39769f38b3e535a0dc8a3c106c7a"
+publicKey
+:
+"0x68191942e4e367481515d1dd2c30d8094564d1d3455991409a320f55a27eb84527f885456e99fb4c39e100aaa3eb45efabb96b3fec3587e66ec4ff0566f78b69"
 
 
 
