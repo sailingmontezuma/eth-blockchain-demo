@@ -1,6 +1,29 @@
-﻿body {
+﻿#accountbalance .form-control {
+    height: 48px;
+    font-size: 36px;
+    text-align: center;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 30px;
+}
+#accountbalance, #accountbalance input {
+    width: 100%;
+}
+#accountbalance .input-group-addon {
+    padding: 0;
+
+}
+.durexlogo {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #0D2C65;
+    color: white;
 }
 
 /* Wrapping element */
