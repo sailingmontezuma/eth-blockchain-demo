@@ -3,3 +3,6 @@
 ################################################################################
 
 /WebSiteMobile/.vs/WebApplicationMobile/v15/Server/sqlite3
+/WebSiteMobile/WebApplicationMobile/obj
+/WebSiteMobile/WebApplicationMobile/bin/Debug/netcoreapp2.0
+/WebSiteMobile/.vs/config
