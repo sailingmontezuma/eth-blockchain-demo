@@ -11,6 +11,13 @@ import * as HttpProvider  from 'ethjs-provider-http';
 var web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/'));
 
 
+import * as  BlockTracker from 'eth-block-tracker';
+ 
+var providerBlockTracker = new HttpProvider('https://mainnet.infura.io')
+//var blockTracker = new BlockTracker({ providerBlockTracker })
+// blockTracker.on('block', console.log)
+// blockTracker.start();
+
 
 var hello = document.getElementById("hello");
 hello.innerHTML = "Hello World!! " + web3.isConnected() + " ";
@@ -18,11 +25,11 @@ hello.innerHTML = "Hello World!! " + web3.isConnected() + " ";
 //console.log(web3.version);
 
 
-//const HttpProvider = require('ethjs-provider-http');
-const eth = new Eth(new HttpProvider('http://localhost:7545'), { debug: true, logger: console, jsonSpace: 0 });
-//eth.getBalance('0x821aEa9a577a9b44299B9c15c88cf3087F3b5544', cb);
-//eth.accounts(cb);
-eth.blockNumber(cb);
+ 
+// const eth = new Eth(new HttpProvider('http://localhost:7545'), { debug: true, logger: console, jsonSpace: 0 });
+// //eth.getBalance('0x821aEa9a577a9b44299B9c15c88cf3087F3b5544', cb);
+// //eth.accounts(cb);
+// eth.blockNumber(cb);
 
 
 

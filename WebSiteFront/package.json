@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bn": "1.0.1",
+    "eth-block-tracker": "2.3.0",
     "ethjs-provider-http": "0.1.6",
     "ethjs-query": "0.3.3",
     "lodash": "^4.17.5",
