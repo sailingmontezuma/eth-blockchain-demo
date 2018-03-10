@@ -4,12 +4,20 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApplicationMobile.Data;
 using WebApplicationMobile.Models;
 
 namespace WebApplicationMobile.Controllers
 {
     public class AccountController : Controller
     {
+        private readonly AccountContext _context;
+
+        public AccountController(AccountContext context)
+        {
+            _context = context;
+        }
+
 
         // GET api/values
         [HttpGet]
@@ -37,21 +45,15 @@ namespace WebApplicationMobile.Controllers
                     PublicKey = "g458 748679485"
             };
 
-            // Add the new object to the Orders collection.
-            db.Orders.InsertOnSubmit(ord);
+            _context.Accounts.Add(account);
 
-            // Submit the change to the database.
             try
             {
-                db.SubmitChanges();
+                _context.SaveChanges();
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
-                // Make some adjustments.
-                // ...
-                // Try again.
-                db.SubmitChanges();
+
             }
 
 

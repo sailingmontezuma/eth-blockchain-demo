@@ -13,7 +13,7 @@ namespace WebApplicationMobile.Data
         public AccountContext(DbContextOptions<AccountContext> options) : base(options)
         { }
 
-        public DbSet<AccountContext> Accounts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
